@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(216, 88, 88);
+    margin: 0px 0px 0px 0px;
+    display: grid;
+}
+header{
+    background-color: brown;
+    font-family: arial;
+    padding:10px;
+    max-width: 100%;
+}
+main{
+    display: flex;
+}
+
+.listaTemporaria{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 50% 50%;
+    width: 50%;
+}
+.itens{
+    margin:5px;
+    
+}
+ul{
+    list-style-type:none;
+    position: relative;
+    right:10%;
+}
+li{
+    background-color: brown;
+    margin: 3px;
+    padding: 3px;
+    width: 250px;
+    font-family: agency fb;
+    font-size: 20px;
+    border:2px solid;
+}
+li:hover{
+    background-color: rgb(117, 14, 14);
+    font-size:25px;
+
+}
+footer{
+    background-color: brown;
+}
+h3{
+    font-family: arial;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
